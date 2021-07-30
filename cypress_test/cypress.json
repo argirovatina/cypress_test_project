@@ -1,0 +1,4 @@
+{
+	"baseUrl": "http://angularjs.realworld.io/",
+  	"screenshotsFolder": "cypress/screenshots"
+}
