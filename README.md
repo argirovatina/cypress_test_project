@@ -2,11 +2,11 @@
 Test project includes test cases for a Web application on Cypress. Tests cover login and user settings functionalities.
 
 # Prerequisites
-1. Make sure you have latest **Node.js** version installed (**v12 or v14** or above).
-2. Operating system requirements:
+1. Operating system requirements:
   - macOS 10.9 and above (64-bit only)
   - Linux Ubuntu 12.04 and above, Fedora 21 and Debian 8 (64-bit only)
   - Windows 7 and above
+2. Make sure you have latest **Node.js** version installed (**v12 or v14** or above).
 3. Navigate to the cypress_test folder
 4. Run ```npm install```
 
