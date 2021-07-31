@@ -25,6 +25,26 @@ class SettingsPage {
 		return cy.get('[placeholder="New Password"]');
 	}
 
+	getUserPic() {
+		return cy.get('.user-pic').find('img');
+	}
+
+	getUserImage() {
+		return cy.get('.user-img').find('img');
+	}
+
+	getUserName() {
+		return cy.get('.h4');
+	}
+
+	getUserNameLink() {
+		return cy.get('.nav-link');
+	}
+
+	getUserBio() {
+		return cy.get('.p');
+	}
+
 	updateSettings() {
 		cy.get('form').submit();
 		return this;
@@ -33,6 +53,10 @@ class SettingsPage {
 	logout() {
 		cy.get('.btn-outline-danger').click();
 		return this;
+	}
+
+	settingsPageScreen() {
+		return cy.get('.settings-page');
 	}
 }
 
