@@ -1,7 +1,7 @@
 class LoginPage {
 
 	visitLogin() {
-		cy.visit('/login');
+		cy.visit('/#/login');
 		return this;
 	}
 
